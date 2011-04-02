@@ -1,0 +1,11 @@
+Several war files to show multiapplication+multiframework support.
+
+To configure and execute the server we need to run:
+
+$ bundle install && bundle exec trinidad --apps .
+
+Then we can access to this urls:
+
+http://localhost:3000/app1
+http://localhost:3000/app2
+http://localhost:3000/app3

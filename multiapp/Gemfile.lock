@@ -1,0 +1,14 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    jruby-rack (1.0.8)
+    trinidad (1.1.1)
+      jruby-rack (>= 1.0.6)
+      trinidad_jars (>= 1.0.0)
+    trinidad_jars (1.0.1)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  trinidad

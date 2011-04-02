@@ -1,0 +1,8 @@
+Rails 3 application with a lifecycle event listener to show how the
+Lifecycle extension works.
+
+The listener is into the directory `lib/lifecycle`.
+
+To configure and execute we need to run this:
+
+$ bundle install && bundle exec trinidad --load lifecycle

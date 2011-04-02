@@ -1,0 +1,6 @@
+Rails application with a Resque job to show Resque+Trinidad integration.
+
+The job is into the directory `lib/tasks`. To configure and run the
+application we need to execute this:
+
+$ bundle install && bundle exec trinidad --load resque
